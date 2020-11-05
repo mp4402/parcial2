@@ -18,6 +18,11 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        <ul>
+            {% for item in my_list %}
+                <li> {{item}} </li>
+            {% endfor %}
+        </ul>
     </div>
 </body>
 </html>
